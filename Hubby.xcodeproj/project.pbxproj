@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52231CE27AFD0CF0000F257 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52231CD27AFD0CF0000F257 /* Leaderboard.swift */; };
+		E52231D027AFD4080000F257 /* LeaderboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52231CF27AFD4080000F257 /* LeaderboardController.swift */; };
+		E551BE7C27AF38D800DAA276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE7B27AF38D800DAA276 /* AppDelegate.swift */; };
+		E551BE7E27AF38D800DAA276 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE7D27AF38D800DAA276 /* SceneDelegate.swift */; };
+		E551BE8027AF38D800DAA276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE7F27AF38D800DAA276 /* ViewController.swift */; };
+		E551BE8327AF38D800DAA276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E551BE8127AF38D800DAA276 /* Main.storyboard */; };
+		E551BE8527AF38DB00DAA276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E551BE8427AF38DB00DAA276 /* Assets.xcassets */; };
+		E551BE8827AF38DB00DAA276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E551BE8627AF38DB00DAA276 /* LaunchScreen.storyboard */; };
+		E551BE9327AF38DB00DAA276 /* HubbyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE9227AF38DB00DAA276 /* HubbyTests.swift */; };
+		E551BE9D27AF38DB00DAA276 /* HubbyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE9C27AF38DB00DAA276 /* HubbyUITests.swift */; };
+		E551BE9F27AF38DB00DAA276 /* HubbyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BE9E27AF38DB00DAA276 /* HubbyUITestsLaunchTests.swift */; };
+		E551BEAC27AF39E700DAA276 /* TerraConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BEAB27AF39E700DAA276 /* TerraConfig.swift */; };
+		E551BEB027AF3FF400DAA276 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E551BEAF27AF3FF300DAA276 /* Metric.swift */; };
+		E551BEB327AF51C000DAA276 /* TerraSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E551BEB227AF51C000DAA276 /* TerraSwift */; };
+		E5FD562C27AFA2EC00463236 /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD562B27AFA2EB00463236 /* ProgressCircle.swift */; };
+		E5FD562E27AFB55600463236 /* PrizesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FD562D27AFB55600463236 /* PrizesController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E551BE8F27AF38DB00DAA276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E551BE7027AF38D800DAA276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E551BE7727AF38D800DAA276;
+			remoteInfo = Hubby;
+		};
+		E551BE9927AF38DB00DAA276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E551BE7027AF38D800DAA276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E551BE7727AF38D800DAA276;
+			remoteInfo = Hubby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52231CD27AFD0CF0000F257 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
+		E52231CF27AFD4080000F257 /* LeaderboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardController.swift; sourceTree = "<group>"; };
+		E551BE7827AF38D800DAA276 /* Hubby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E551BE7B27AF38D800DAA276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E551BE7D27AF38D800DAA276 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E551BE7F27AF38D800DAA276 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E551BE8227AF38D800DAA276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E551BE8427AF38DB00DAA276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E551BE8727AF38DB00DAA276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E551BE8927AF38DB00DAA276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E551BE8E27AF38DB00DAA276 /* HubbyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubbyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E551BE9227AF38DB00DAA276 /* HubbyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubbyTests.swift; sourceTree = "<group>"; };
+		E551BE9827AF38DB00DAA276 /* HubbyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubbyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E551BE9C27AF38DB00DAA276 /* HubbyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubbyUITests.swift; sourceTree = "<group>"; };
+		E551BE9E27AF38DB00DAA276 /* HubbyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HubbyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E551BEAB27AF39E700DAA276 /* TerraConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerraConfig.swift; sourceTree = "<group>"; };
+		E551BEAF27AF3FF300DAA276 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		E5FD562B27AFA2EB00463236 /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
+		E5FD562D27AFB55600463236 /* PrizesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizesController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E551BE7527AF38D800DAA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E551BEB327AF51C000DAA276 /* TerraSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE8B27AF38DB00DAA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE9527AF38DB00DAA276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E551BE6F27AF38D800DAA276 = {
+			isa = PBXGroup;
+			children = (
+				E551BE7A27AF38D800DAA276 /* Hubby */,
+				E551BE9127AF38DB00DAA276 /* HubbyTests */,
+				E551BE9B27AF38DB00DAA276 /* HubbyUITests */,
+				E551BE7927AF38D800DAA276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E551BE7927AF38D800DAA276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E551BE7827AF38D800DAA276 /* Hubby.app */,
+				E551BE8E27AF38DB00DAA276 /* HubbyTests.xctest */,
+				E551BE9827AF38DB00DAA276 /* HubbyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E551BE7A27AF38D800DAA276 /* Hubby */ = {
+			isa = PBXGroup;
+			children = (
+				E551BE7B27AF38D800DAA276 /* AppDelegate.swift */,
+				E551BE7D27AF38D800DAA276 /* SceneDelegate.swift */,
+				E551BE7F27AF38D800DAA276 /* ViewController.swift */,
+				E551BE8127AF38D800DAA276 /* Main.storyboard */,
+				E551BE8427AF38DB00DAA276 /* Assets.xcassets */,
+				E551BE8627AF38DB00DAA276 /* LaunchScreen.storyboard */,
+				E551BE8927AF38DB00DAA276 /* Info.plist */,
+				E551BEAB27AF39E700DAA276 /* TerraConfig.swift */,
+				E551BEAF27AF3FF300DAA276 /* Metric.swift */,
+				E5FD562B27AFA2EB00463236 /* ProgressCircle.swift */,
+				E5FD562D27AFB55600463236 /* PrizesController.swift */,
+				E52231CD27AFD0CF0000F257 /* Leaderboard.swift */,
+				E52231CF27AFD4080000F257 /* LeaderboardController.swift */,
+			);
+			path = Hubby;
+			sourceTree = "<group>";
+		};
+		E551BE9127AF38DB00DAA276 /* HubbyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E551BE9227AF38DB00DAA276 /* HubbyTests.swift */,
+			);
+			path = HubbyTests;
+			sourceTree = "<group>";
+		};
+		E551BE9B27AF38DB00DAA276 /* HubbyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E551BE9C27AF38DB00DAA276 /* HubbyUITests.swift */,
+				E551BE9E27AF38DB00DAA276 /* HubbyUITestsLaunchTests.swift */,
+			);
+			path = HubbyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E551BE7727AF38D800DAA276 /* Hubby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E551BEA227AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "Hubby" */;
+			buildPhases = (
+				E551BE7427AF38D800DAA276 /* Sources */,
+				E551BE7527AF38D800DAA276 /* Frameworks */,
+				E551BE7627AF38D800DAA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hubby;
+			packageProductDependencies = (
+				E551BEB227AF51C000DAA276 /* TerraSwift */,
+			);
+			productName = Hubby;
+			productReference = E551BE7827AF38D800DAA276 /* Hubby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E551BE8D27AF38DB00DAA276 /* HubbyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E551BEA527AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "HubbyTests" */;
+			buildPhases = (
+				E551BE8A27AF38DB00DAA276 /* Sources */,
+				E551BE8B27AF38DB00DAA276 /* Frameworks */,
+				E551BE8C27AF38DB00DAA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E551BE9027AF38DB00DAA276 /* PBXTargetDependency */,
+			);
+			name = HubbyTests;
+			productName = HubbyTests;
+			productReference = E551BE8E27AF38DB00DAA276 /* HubbyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E551BE9727AF38DB00DAA276 /* HubbyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E551BEA827AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "HubbyUITests" */;
+			buildPhases = (
+				E551BE9427AF38DB00DAA276 /* Sources */,
+				E551BE9527AF38DB00DAA276 /* Frameworks */,
+				E551BE9627AF38DB00DAA276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E551BE9A27AF38DB00DAA276 /* PBXTargetDependency */,
+			);
+			name = HubbyUITests;
+			productName = HubbyUITests;
+			productReference = E551BE9827AF38DB00DAA276 /* HubbyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E551BE7027AF38D800DAA276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E551BE7727AF38D800DAA276 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E551BE8D27AF38DB00DAA276 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E551BE7727AF38D800DAA276;
+					};
+					E551BE9727AF38DB00DAA276 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E551BE7727AF38D800DAA276;
+					};
+				};
+			};
+			buildConfigurationList = E551BE7327AF38D800DAA276 /* Build configuration list for PBXProject "Hubby" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E551BE6F27AF38D800DAA276;
+			packageReferences = (
+				E551BEB127AF51C000DAA276 /* XCRemoteSwiftPackageReference "TerraSwift" */,
+			);
+			productRefGroup = E551BE7927AF38D800DAA276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E551BE7727AF38D800DAA276 /* Hubby */,
+				E551BE8D27AF38DB00DAA276 /* HubbyTests */,
+				E551BE9727AF38DB00DAA276 /* HubbyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E551BE7627AF38D800DAA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E551BE8827AF38DB00DAA276 /* LaunchScreen.storyboard in Resources */,
+				E551BE8527AF38DB00DAA276 /* Assets.xcassets in Resources */,
+				E551BE8327AF38D800DAA276 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE8C27AF38DB00DAA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE9627AF38DB00DAA276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E551BE7427AF38D800DAA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E551BEAC27AF39E700DAA276 /* TerraConfig.swift in Sources */,
+				E52231CE27AFD0CF0000F257 /* Leaderboard.swift in Sources */,
+				E551BE8027AF38D800DAA276 /* ViewController.swift in Sources */,
+				E551BEB027AF3FF400DAA276 /* Metric.swift in Sources */,
+				E5FD562E27AFB55600463236 /* PrizesController.swift in Sources */,
+				E551BE7C27AF38D800DAA276 /* AppDelegate.swift in Sources */,
+				E52231D027AFD4080000F257 /* LeaderboardController.swift in Sources */,
+				E5FD562C27AFA2EC00463236 /* ProgressCircle.swift in Sources */,
+				E551BE7E27AF38D800DAA276 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE8A27AF38DB00DAA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E551BE9327AF38DB00DAA276 /* HubbyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E551BE9427AF38DB00DAA276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E551BE9D27AF38DB00DAA276 /* HubbyUITests.swift in Sources */,
+				E551BE9F27AF38DB00DAA276 /* HubbyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E551BE9027AF38DB00DAA276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E551BE7727AF38D800DAA276 /* Hubby */;
+			targetProxy = E551BE8F27AF38DB00DAA276 /* PBXContainerItemProxy */;
+		};
+		E551BE9A27AF38DB00DAA276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E551BE7727AF38D800DAA276 /* Hubby */;
+			targetProxy = E551BE9927AF38DB00DAA276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E551BE8127AF38D800DAA276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E551BE8227AF38D800DAA276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E551BE8627AF38DB00DAA276 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E551BE8727AF38DB00DAA276 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E551BEA027AF38DB00DAA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E551BEA127AF38DB00DAA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E551BEA327AF38DB00DAA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hubby/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.Hubby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E551BEA427AF38DB00DAA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hubby/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.Hubby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E551BEA627AF38DB00DAA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.HubbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hubby.app/Hubby";
+			};
+			name = Debug;
+		};
+		E551BEA727AF38DB00DAA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.HubbyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hubby.app/Hubby";
+			};
+			name = Release;
+		};
+		E551BEA927AF38DB00DAA276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.HubbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hubby;
+			};
+			name = Debug;
+		};
+		E551BEAA27AF38DB00DAA276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XZTCHPV389;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = terra.HubbyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hubby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E551BE7327AF38D800DAA276 /* Build configuration list for PBXProject "Hubby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E551BEA027AF38DB00DAA276 /* Debug */,
+				E551BEA127AF38DB00DAA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E551BEA227AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "Hubby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E551BEA327AF38DB00DAA276 /* Debug */,
+				E551BEA427AF38DB00DAA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E551BEA527AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "HubbyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E551BEA627AF38DB00DAA276 /* Debug */,
+				E551BEA727AF38DB00DAA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E551BEA827AF38DB00DAA276 /* Build configuration list for PBXNativeTarget "HubbyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E551BEA927AF38DB00DAA276 /* Debug */,
+				E551BEAA27AF38DB00DAA276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E551BEB127AF51C000DAA276 /* XCRemoteSwiftPackageReference "TerraSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tryterra/TerraSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E551BEB227AF51C000DAA276 /* TerraSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E551BEB127AF51C000DAA276 /* XCRemoteSwiftPackageReference "TerraSwift" */;
+			productName = TerraSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E551BE7027AF38D800DAA276 /* Project object */;
+}
